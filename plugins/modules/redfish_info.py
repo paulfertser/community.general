@@ -404,7 +404,7 @@ result:
 """
 
 from ansible.module_utils.basic import AnsibleModule
-from ansible_collections.community.general.plugins.module_utils.redfish_utils import RedfishUtils
+from ansible_collections.openbmc.general.plugins.module_utils.redfish_utils import RedfishUtils
 
 CATEGORY_COMMANDS_ALL = {
     "Systems": ["GetSystemInventory", "GetPsuInventory", "GetCpuInventory",
